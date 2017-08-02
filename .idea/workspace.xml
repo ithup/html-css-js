@@ -2,31 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="781b2860-4471-4a4d-8b77-2fdcbd629bd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/163logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/h_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/header.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/icon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/imap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/img1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/img2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/img3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/img4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/loginIcon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/nav_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/images/netease_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/html1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/html2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/html3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/html4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/html5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/one.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/three.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page1/html/two.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/icon_elite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/icon_hot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/icon_mobile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/icon_talking.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/jubao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/noavatar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_05.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_06.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_07.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_08.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_09.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/num_10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/images/title_top10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page2/html/xinlang.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/html/home_register.html" afterPath="$PROJECT_DIR$/src/page/html/home_register.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,12 +36,29 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html5.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page1/html/html5.html">
+      <file leaf-file-name="xinlang.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page2/html/xinlang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="377">
+              <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +111,7 @@
         <option value="$PROJECT_DIR$/page1/html/html3.html" />
         <option value="$PROJECT_DIR$/page1/html/html4.html" />
         <option value="$PROJECT_DIR$/page1/html/html5.html" />
+        <option value="$PROJECT_DIR$/page2/html/xinlang.html" />
       </list>
     </option>
   </component>
@@ -163,7 +178,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page1" />
+              <option name="myItemId" value="page2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -181,7 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page1" />
+              <option name="myItemId" value="page2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -205,6 +220,7 @@
       <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\html&amp;css&amp;js\page2" />
       <recent name="D:\IdeaProjects\html&amp;css&amp;js\page1\images" />
       <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page\images" />
       <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page" />
@@ -627,16 +643,15 @@
       <workItem from="1500810837667" duration="1907000" />
       <workItem from="1501554229901" duration="12198000" />
       <workItem from="1501576935334" duration="4667000" />
-      <workItem from="1501634208432" duration="16034000" />
+      <workItem from="1501634208432" duration="24935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35521000" />
+    <option name="totallyTimeSpent" value="44422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1924" height="1042" extended-state="1" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,43 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/page/images/tv01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/html/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/login_step2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/help_steps.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/signup_step1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/signup_step2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/login_step1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/html/html6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -993,6 +971,61 @@
         <state relative-caret-position="240">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/images/login.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/images/icon_hot.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/images/banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/images/num_01.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/images/title_top10.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/html/xinlang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
