@@ -2,25 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="781b2860-4471-4a4d-8b77-2fdcbd629bd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/12377.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/logo.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/num1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/num2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/num3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/num4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/park.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/images/search.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/HotHome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/Person.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/demo01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/html1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/html2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/html3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/html4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/html5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/html6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/js1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/4zhounian.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/adv.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/adv/adv_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/adv/adv_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/adv/adv_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/adv/adv_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/banner_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/banner_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/banner_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/banner_4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/banner_5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/banner_6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/coins_icon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/ershou1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/game1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/icon_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/icon_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/icon_3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/icon_4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/icon_5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/jiajiu1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/nannv1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/icon/shishang1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/left_daohang1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/line/line_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/line/line_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/pinpai1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/portal_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/remai_shouji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/right_daohang1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/right_daohang2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/right_daohang3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/right_daohang4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/right_daohang5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/scroll/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/scroll/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/scroll/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/scroll/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/slice_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/slide_trigger_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab1_downshow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab1_game1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab1_game2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab2_downshow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab2_pointcard1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab2_pointcard2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/tab_bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/table_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/table_back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/table_back2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/type_back.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/type_back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/images/wangyou.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot/js/hot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/js2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/js3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page3/html/js3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/css/taobaoHome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taobao/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot/HotHome.html" afterPath="$PROJECT_DIR$/hot/HotHome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page3/html/js1.html" afterPath="$PROJECT_DIR$/page3/html/js1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,22 +76,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="js1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page3/html/js1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -99,8 +134,17 @@
         <option value="$PROJECT_DIR$/page3/html/html5.html" />
         <option value="$PROJECT_DIR$/page3/html/html6.html" />
         <option value="$PROJECT_DIR$/hot/Home.html" />
-        <option value="$PROJECT_DIR$/hot/HotHome.html" />
         <option value="$PROJECT_DIR$/page3/html/js1.html" />
+        <option value="$PROJECT_DIR$/hot/HotHome.html" />
+        <option value="$PROJECT_DIR$/hot/js/hot.js" />
+        <option value="$PROJECT_DIR$/page3/html/js3.js" />
+        <option value="$PROJECT_DIR$/page3/html/js3.html" />
+        <option value="$PROJECT_DIR$/page3/html/js2.html" />
+        <option value="$PROJECT_DIR$/taobao/taobaoHome.css" />
+        <option value="$PROJECT_DIR$/taobao/css/taobaoHome.css" />
+        <option value="$PROJECT_DIR$/taobao/page.html" />
+        <option value="$PROJECT_DIR$/taobao/demo.html" />
+        <option value="$PROJECT_DIR$/taobao/index.html" />
       </list>
     </option>
   </component>
@@ -113,7 +157,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="1924" />
+    <option name="width" value="1942" />
     <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -157,24 +201,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html&amp;css&amp;js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html&amp;css&amp;js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -184,18 +210,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\html&amp;css&amp;js\taobao\css" />
+      <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page\html" />
+      <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\html&amp;css&amp;js\taobao\images" />
+      <recent name="D:\IdeaProjects\html&amp;css&amp;js\taobao" />
       <recent name="D:\IdeaProjects\html&amp;css&amp;js\hot\images" />
       <recent name="D:\IdeaProjects\html&amp;css&amp;js" />
       <recent name="D:\IdeaProjects\html&amp;css&amp;js\page3\html" />
-      <recent name="D:\IdeaProjects\html&amp;css&amp;js\page2" />
-      <recent name="D:\IdeaProjects\html&amp;css&amp;js\page1\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page\html" />
-      <recent name="D:\IdeaProjects\html&amp;css&amp;js\src\page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -616,16 +644,15 @@
       <workItem from="1501576935334" duration="4667000" />
       <workItem from="1501634208432" duration="24935000" />
       <workItem from="1501722476512" duration="12835000" />
-      <workItem from="1501805359907" duration="3884000" />
+      <workItem from="1501805359907" duration="20854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61141000" />
+    <option name="totallyTimeSpent" value="78111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1924" height="1042" extended-state="1" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -641,7 +668,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17666303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17494601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -668,140 +695,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/page/images/phone.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/phone1.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/zip.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/images/mp3.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/html/home_register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/html/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/top.html" />
-    <entry file="file://$PROJECT_DIR$/page1/html/index.html" />
-    <entry file="file://$PROJECT_DIR$/page1/html/bottom.html" />
-    <entry file="file://$PROJECT_DIR$/page1/html/one.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/two.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/three.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/iframe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/html1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/html2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/h_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/header.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/img1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/img2.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/img3.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/img4.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/loginIcon.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/163logo.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/imap.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/images/icon.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page1/images/netease_logo.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -810,34 +703,6 @@
     <entry file="file://$PROJECT_DIR$/page1/images/nav_bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="63" column="57" lean-forward="false" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/html3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/html4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1/html/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page2/images/login.gif">
@@ -868,48 +733,6 @@
     <entry file="file://$PROJECT_DIR$/page2/images/title_top10.gif">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page2/html/xinlang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page3/html/html3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page3/html/html2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page3/html/html1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page3/html/html4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page3/html/html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page3/html/html6.html">
@@ -946,29 +769,335 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/js3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/js3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hot/HotHome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        <state relative-caret-position="780">
+          <caret line="144" column="67" lean-forward="true" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="67" />
           <folding>
-            <element signature="e#116#174#0" expanded="false" />
-            <element signature="e#184#354#0" expanded="false" />
-            <element signature="e#373#571#0" expanded="false" />
-            <element signature="e#698#734#0" expanded="false" />
-            <element signature="e#755#822#0" expanded="false" />
-            <element signature="e#842#879#0" expanded="false" />
-            <element signature="e#899#935#0" expanded="false" />
-            <element signature="e#953#1021#0" expanded="false" />
+            <element signature="e#177#235#0" expanded="false" />
+            <element signature="e#245#415#0" expanded="false" />
+            <element signature="e#434#632#0" expanded="false" />
+            <element signature="e#759#795#0" expanded="false" />
+            <element signature="e#816#883#0" expanded="false" />
+            <element signature="e#903#940#0" expanded="false" />
+            <element signature="e#960#996#0" expanded="false" />
+            <element signature="e#1014#1082#0" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hot/js/hot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/js2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page3/html/js1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="497">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/css/taobaoHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/banner_1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="63" column="57" lean-forward="false" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/three.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/two.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/html1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1543">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/html2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/html3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/html4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1/html/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="63" lean-forward="false" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2/html/xinlang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/html4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/html3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/html2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page3/html/html1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/table_1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/tab1_game2.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/tab1_game1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/tab1_downshow.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/adv.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/type_back.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/icon/game1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/icon/jiajiu1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/icon/shishang1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/icon/nannv1.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/images/icon/icon_5.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taobao/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="329" column="24" lean-forward="false" selection-start-line="329" selection-start-column="24" selection-end-line="329" selection-end-column="24" />
+          <folding>
+            <element signature="e#169#227#0" expanded="false" />
+            <element signature="e#237#283#0" expanded="false" />
+            <element signature="e#420#456#0" expanded="false" />
+            <element signature="e#480#517#0" expanded="false" />
+            <element signature="e#541#617#0" expanded="false" />
+            <element signature="e#644#717#0" expanded="false" />
+            <element signature="e#746#849#0" expanded="false" />
+            <element signature="e#880#985#0" expanded="false" />
+            <element signature="e#1008#1081#0" expanded="false" />
+            <element signature="e#1178#1214#0" expanded="false" />
+            <element signature="e#1240#1276#0" expanded="false" />
+            <element signature="e#1302#1338#0" expanded="false" />
+            <element signature="e#1368#1436#0" expanded="false" />
+            <element signature="e#1463#1526#0" expanded="false" />
+            <element signature="e#1555#1594#0" expanded="false" />
+            <element signature="e#1651#1742#0" expanded="false" />
+            <element signature="e#1771#1863#0" expanded="false" />
+            <element signature="e#1883#2000#0" expanded="false" />
+            <element signature="e#2022#2139#0" expanded="false" />
+            <element signature="e#2160#2277#0" expanded="false" />
+            <element signature="e#2295#2335#0" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#div#2;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

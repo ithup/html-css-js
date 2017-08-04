@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝主页</title>
+    <link type="text/css" href="css/taobaoHome.css">
+    <style>
+        .body{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        .container{
+            width: 980px;
+            /*height: 5000px;*/
+            margin: auto;
+        }
+        .head-top-left{
+            float: left;
+        }
+        .head-top-right{
+            float: right;
+        }
+        .content-search{
+            height: 68px;
+            background-color: #FF7F00;
+        }
+        .content-search-up{
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+        .content-search-down{
+            color: whitesmoke;
+            padding-top: 2px;
+            padding-left: 2px;
+        }
+        .content-search-down>a{
+            color: whitesmoke;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        .adv-4zhounian{
+            margin-top: 5px;
+            margin-bottom: 50px;
+        }
+        .content-center{
+            margin-bottom: 50px;
+        }
+        .content-center-left{
+            float: left;
+        }
+        .content-center-2{
+            float: left;
+        }
+        .content-center-3{
+            float: left;
+        }
+        .content-center-right{
+            padding-top: 20px;
+            float: right;
+        }
+        .content-bottom-up{
+            width: 560px;
+            margin: auto;
+        }
+        .content-bottom-up>a{
+           font-size: 12px;
+        }
+        .content-bottom-center, .content-bottom-center>a{
+            width: 560px;
+            margin:auto;
+            font-size: 12px;
+        }
+        .content-bottom-down{
+            width: 560px;
+            margin: auto;
+            font-size: 12px;
+        }
+        .baobeiLeft{
+            float: left;
+            width: 30%;
+            font-size: 10px;
+            color: #1C86EE;
+        }
+        .baobeiCenter{
+            float: left;
+            width: 30%;
+            font-size: 10px;
+            color: #1C86EE;
+        }
+        .baobeiRight{
+            float: left;
+            width: 30%;
+            font-size: 10px;
+            color: #1C86EE;
+        }
+        .tr-title{
+            font-size: 14px;
+        }
+        .goodsListContent{
+            height: 286px;
+            width: 767px;
+            background-image: url("images/table_back.gif");
+        }
+        .goodListLeft{
+            float: left;
+        }
+        .goodsListContentRight{
+            float: right;
+            height: 286px;
+            width: 180px;
+            background-image: url("images/portal_bg.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head-top">
+            <div class="head-top-left">
+                <img src="images/logo.gif" alt="">
+            </div>
+            <div class="head-top-right">
+                <div class="head-top-right-up">
+                    <a href="#">
+                        <img src="images/banner_1.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/banner_2.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/banner_3.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/banner_4.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/banner_5.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/banner_6.gif" alt="">
+                    </a>
+                </div>
+                <div class="head-top-right-down">
+                    <span>您好，欢迎来淘宝！</span>
+                    <a href="#">[免费注册]</a>
+                    <a href="#">[登录]</a>
+                    <a href="#">阿里旺旺</a>
+                    <a href="#">支付宝</a>
+                </div>
+            </div>
+        </div>
+        <div class="content-menu">
+            <img src="images/table_1.gif" alt="">
+        </div>
+        <div class="content-search">
+            <div class="content-search-up">
+                <form action="">
+                    <select name="goods">
+                        <option value="volvo">搜索宝贝</option>
+                        <option value="saab">搜索店铺</option>
+                        <option value="fiat">搜索掌柜</option>
+                        <option value="audi">搜索咨询</option>
+                        <option value="audi">搜索网页</option>
+                    </select>
+                    <input type="text">
+                    <select name="cars">
+                        <option value="volvo">所有分类</option>
+                        <option value="saab">玩具/动漫/模型/卡通</option>
+                        <option value="fiat">购物优惠券/门票/美容健身卡</option>
+                        <option value="audi">鲜花速递/蛋糕配送/园艺花艺</option>
+                        <option value="audi">网店服务/物流/个性/家政服务</option>
+                    </select>
+                    <input type="submit" value="搜索">
+                    <span>[高级搜索]</span><span>[使用帮助]</span>
+                </form>
+            </div>
+            <div class="content-search-down">
+                <span>热门搜索:</span>
+                <a href="#">T恤</a>
+                <a href="#">女鞋</a>
+                <a href="#">手机</a>
+                <a href="#">比基尼</a>
+                <a href="#">魔兽世界</a>
+                <a href="#">减肥</a>
+                <a href="#">七分裤</a>
+                <a href="#">娃娃衫</a>
+                <a href="#">特价机票</a>
+                <a href="#">连衣裙</a>
+                <a href="#">Q币</a>
+                <a href="#">美白防晒</a>
+                <a href="#">热销品</a>
+                <a href="#">二手房</a>
+            </div>
+        </div>
+        <div class="adv-4zhounian">
+            <img src="images/4zhounian.jpg" alt="" width="980">
+        </div>
+        <div class="content-center">
+            <div class="content-center-left">
+                <div>
+                    <img src="images/adv.jpg" alt="" width="280" >
+                </div>
+                <div style="float: left">
+                    <img src="images/wangyou.jpg" alt="" width="140" height="230">
+                </div>
+                <div style="float: left;line-height: 25px;font-size: 13px" >
+                    <ul style="list-style-type: none">
+                        <li><a href="#">超值变形金钢2.5折!</a></li>
+                        <li><a href="#">人们为啥对电视吼叫</a></li>
+                        <li><a href="#">淘宝网首届翠友会！</a></li>
+                        <li><a href="#">比基尼美女激情海滩</a></li>
+                        <li><a href="#">想做最闪亮的mm吗</a></li>
+                        <li><a href="#">千余中奖机会有你吗</a></li>
+                        <li><a href="#">咖啡广告语有奖征集！</a></li>
+                        <li><a href="#">淘宝入选平安网站 ！</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-center-2">
+                <a href="#">
+                    <img src="images/adv/adv_1.jpg" alt="" width="340" height="250">
+                </a>
+            </div>
+            <div class="content-center-3">
+                <marquee direction=up behavior=scroll onmouseover=this.stop() onmouseout=this.start()>
+                    <img src="images/scroll/1.gif" alt="" align="center">"Avon" 化妆品</img><br>
+                    <img src="images/scroll/2.gif" alt="" align="center">雅诗兰黛化妆品</img><br>
+                    <img src="images/scroll/3.gif" alt="" align="center">索尼爱立信手机</img><br>
+                    <img src="images/scroll/4.gif" alt="" align="center">iRiver超酷 MP3</img><br>
+                </marquee>
+            </div>
+            <div class="content-center-right">
+                <div>
+                    <a href="#">
+                        <img src="images/right_daohang1.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/right_daohang2.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/right_daohang3.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/right_daohang4.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="images/right_daohang5.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content-goodsList">
+            <div class="goodListLeft" >
+               <table class="goodsListContent">
+                   <th></th>
+                   <tr>
+                       <td style="text-align: left">
+                           <table width="230" height="240">
+                               <tr>
+                                   <td colspan="3">
+                                       <a href="#" style="font-size: 12px">
+                                           7000多万商品 70多万卖家 尽情享受购物
+                                       </a>
+                                   </td>
+                               </tr>
+                               <tr colspan="3">
+                                   <td>
+                                       <img src="images/remai_shouji.gif" alt="" width="200">
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <img src="images/icon/icon_1.gif" alt="">
+                                   </td>
+                                   <td>
+                                       <img src="images/icon/jiajiu1.gif" alt="">
+                                   </td>
+                                   <td>33</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <img src="images/icon/icon_2.gif" alt="">
+                                   </td>
+                                   <td>
+                                       <img src="images/icon/game1.gif" alt="">
+                                   </td>
+                                   <td>43</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <img src="images/icon/icon_3.gif" alt="">
+                                   </td>
+                                   <td>
+                                       <img src="images/icon/nannv1.gif" alt="">
+                                   </td>
+                                   <td>53</td>
+                               </tr>
+                               <tr>
+                                   <td>
+                                       <img src="images/icon/icon_4.gif" alt="">
+                                   </td>
+                                   <td>
+                                       <img src="images/icon/shishang1.jpg" alt="">
+                                   </td>
+                                   <td>63</td>
+                               </tr>
+                           </table>
+                       </td>
+                       <td>
+                           <img src="images/pinpai1.gif" alt="" width="240" height="240">
+                       </td>
+                       <td>
+                           <img src="images/ershou1.gif" alt="" width="235" height="240">
+                       </td>
+                   </tr>
+               </table>
+            </div>
+            <div class="goodsListContentRight">
+                    <div>
+
+                    </div>
+            </div>
+        </div>
+        <div class="goodsBand">
+            <div>
+                <img src="images/type_back.png" alt="" width="980" height="35px">
+                </img>
+            </div>
+            <div class="baobeiLeft">
+                <table>
+                    <tr class="tr-title">
+                        <td colspan="6">手机充值、IP卡/电话卡</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">移动|</a> </td>
+                        <td><a href="#">50 |</a></td>
+                        <td><a href="#">100 |</a></td>
+                        <td><a href="#">联通 |</a></td>
+                        <td><a href="#">50 |</a></td>
+                        <td><a href="#">100 |</a></td>
+                        <td><a href="#">网络电话</a></td>
+                    </tr>
+                    <tr class="tr-title">
+                        <td colspan="6">手机(诺基亚 MOTO 三星 索爱 多普达)</td>
+                    </tr>
+                    <tr >
+                        <td><a href="#">N73 |</a> </td>
+                        <td><a href="#">N72 |</a></td>
+                        <td><a href="#">N95 |</a></td>
+                        <td><a href="#">D908 |</a></td>
+                        <td><a href="#">E908 |</a></td>
+                        <td><a href="#">E6 |</a></td>
+                        <td><a href="#">A1200</a></td>
+                    </tr>
+                    <tr class="tr-title">
+                        <td colspan="6">笔记本电脑</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">IBM |</a> </td>
+                        <td><a href="#">惠普 |</a></td>
+                        <td><a href="#">DELL |</a></td>
+                        <td><a href="#">华硕 |</a></td>
+                        <td><a href="#">SONY |</a></td>
+                        <td><a href="#">苹果 |</a></td>
+                        <td><a href="#">苹果</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="baobeiCenter">
+                <table>
+                    <tr class="tr-title">
+                        <td colspan="6">手机充值、IP卡/电话卡</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">移动|</a> </td>
+                        <td><a href="#">50 |</a></td>
+                        <td><a href="#">100 |</a></td>
+                        <td><a href="#">联通 |</a></td>
+                        <td><a href="#">50 |</a></td>
+                        <td><a href="#">100 |</a></td>
+                        <td><a href="#">网络电话</a></td>
+                    </tr>
+                    <tr class="tr-title">
+                        <td colspan="6">手机(诺基亚 MOTO 三星 索爱 多普达)</td>
+                    </tr>
+                    <tr >
+                        <td><a href="#">N73 |</a> </td>
+                        <td><a href="#">N72 |</a></td>
+                        <td><a href="#">N95 |</a></td>
+                        <td><a href="#">D908 |</a></td>
+                        <td><a href="#">E908 |</a></td>
+                        <td><a href="#">E6 |</a></td>
+                        <td><a href="#">A1200</a></td>
+                    </tr>
+                    <tr class="tr-title">
+                        <td colspan="6">笔记本电脑</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">IBM |</a> </td>
+                        <td><a href="#">惠普 |</a></td>
+                        <td><a href="#">DELL |</a></td>
+                        <td><a href="#">华硕 |</a></td>
+                        <td><a href="#">SONY |</a></td>
+                        <td><a href="#">苹果 |</a></td>
+                        <td><a href="#">苹果</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="baobeiRight">
+                <table>
+                    <tr class="tr-title">
+                        <td colspan="6">手机充值、IP卡/电话卡</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">移动|</a> </td>
+                        <td><a href="#">50 |</a></td>
+                        <td><a href="#">100 |</a></td>
+                        <td><a href="#">联通 |</a></td>
+                        <td><a href="#">50 |</a></td>
+                        <td><a href="#">100 |</a></td>
+                        <td><a href="#">网络电话</a></td>
+                    </tr>
+                    <tr class="tr-title">
+                        <td colspan="6">手机(诺基亚 MOTO 三星 索爱 多普达)</td>
+                    </tr>
+                    <tr >
+                        <td><a href="#">N73 |</a> </td>
+                        <td><a href="#">N72 |</a></td>
+                        <td><a href="#">N95 |</a></td>
+                        <td><a href="#">D908 |</a></td>
+                        <td><a href="#">E908 |</a></td>
+                        <td><a href="#">E6 |</a></td>
+                        <td><a href="#">A1200</a></td>
+                    </tr>
+                    <tr class="tr-title">
+                        <td colspan="6">笔记本电脑</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">IBM |</a> </td>
+                        <td><a href="#">惠普 |</a></td>
+                        <td><a href="#">DELL |</a></td>
+                        <td><a href="#">华硕 |</a></td>
+                        <td><a href="#">SONY |</a></td>
+                        <td><a href="#">苹果 |</a></td>
+                        <td><a href="#">苹果</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+        <hr>
+        <div class="content-bottom">
+            <div class="content-bottom-up">
+                &nbsp; &nbsp;<a href="#">关于淘宝</a>
+                <a href="#">广告服务</a>
+                <a href="#">合作伙伴</a>
+                <a href="#">客户中心</a>
+                <a href="#">诚征英才</a>
+                <a href="#">联系我们</a>
+                <a href="#">网站地图</a>
+                <a href="#">热门品牌</a>
+                <a href="#">版权说明</a>
+            </div>
+            <div class="content-bottom-center">
+                <a>全球阿里巴巴 ：</a>
+                <a href="#">中国站</a>
+                <a href="#">国际站</a>
+                <a href="#">日文站</a>
+                <a href="#">淘宝站</a>
+                <a href="#">支付宝</a>
+                <a href="#">中国雅虎</a>
+                <a href="#">口碑网</a>
+                <a href="#">阿里软件</a>
+                <a href="#">淘宝推广联盟</a>
+            </div>
+            <div class="content-bottom-down">
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Copyright 2003-2007, 版权所有 TAOBAO.COM<br/>
+                &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="color: #1e74ca">ICP证：浙B2-20050291</span><br/>
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;广告经营许可证号：3301061000468
+            </div>
+        </div>
+    </div>
+</body>
+</html>
