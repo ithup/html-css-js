@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var i=1;
+        function changImg() {
+            i++;
+            document.getElementById("img").src="images/banner_"+i+".gif";
+            if(i == 6){
+                i=0;
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" onclick="changImg()" value="下一张"><br>
+<img src="images/banner_1.gif" alt="" id="img">
+</body>
+</html>

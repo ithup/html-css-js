@@ -102,4 +102,26 @@ a{
 .menu_member{
     padding-top: 150px;
 }
+.product{
+    width: 1028px;
+    height: 450px;
+    margin: auto;
+    background-color: gainsboro;
+}
+.product-menu-dropdown{
+    position: absolute;
+    width: 200px;
+    font-size: smaller;
+}
+.product-menu-dropdown ul{
+    list-style-type: none;
+}
+.product-menu-dropdown ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
 
+}
+.products:hover{
+    /*display: block;*/
+    /*background-color: #00897b;*/
+}

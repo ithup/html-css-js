@@ -5,63 +5,75 @@
     <title>Title</title>
     <script type="text/javascript" src="js/hot.js"></script>
     <style>
-        body{
+        body {
             margin: 0;
             padding: 0;
         }
-        a{
+
+        .head_band a {
             display: inline-block;
             text-decoration: none;
             color: white;
             padding-left: 5px;
             padding-right: 5px;
         }
-        .head_band{
+
+        .head_band {
             height: 48px;
             background-color: #2459a2;
             line-height: 48px;
             position: fixed;
-            top:0;
+            top: 0;
             left: 0;
             right: 0;
         }
-        .head-content{
+
+        .head-content {
             width: 980px;
             height: 5000px;
             margin: auto;
         }
-        .logo{
+
+        .logo {
             float: left;
         }
-        .action-menu{
+
+        .action-menu {
             float: left;
             margin-left: 20px;
         }
-        .head_right{
+
+        .head_right {
             float: right;
         }
-        .action-nav{
+
+        .action-nav {
             float: left;
         }
-        .key-sera{
+
+        .key-sera {
             float: left;
             padding-left: 10px;
         }
-        .tb:hover{
+
+        .tb:hover {
             background-color: black;
         }
-        .main-content-body{
+
+        .main-content-body {
             height: 5000px;
             background-color: #DAFFD5;
             margin-top: 48px;
         }
-        .main-content-band{
+
+        .main-content-band {
             width: 980px;
             height: 5000px;
             background-color: white;
             margin: auto;
         }
-        .main-content-left{
+
+        .main-content-left {
             float: left;
             border: 1px solid red;
             width: 60%;
@@ -69,7 +81,8 @@
             margin-left: 30px;
             margin-top: 10px;
         }
-        .main-content-right{
+
+        .main-content-right {
             float: left;
             border: 1px solid green;
             width: 30%;
@@ -77,82 +90,141 @@
             margin-left: 30px;
             margin-top: 10px;
         }
-        .content-right-2{
+
+        .content-right-2 {
             padding: 5px;
         }
-        .content-right-3{
+
+        .content-right-3 {
             padding-top: 10px;
+        }
+
+        .maxHot {
+            height: 32px;
+            background-color: #4767b2;
+            font-size: small;
+            line-height: 32px;
+            padding-left: 120px;
+            color: white;
+        }
+
+        .main-content-num1 {
+            height: 38px;
+            line-height: 38px;
+            font-size: small;
+        }
+
+        .main-content-num1 a {
+            text-decoration: none;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .a-menu:hover {
+            color: red;
+        }
+        .main-content-num2{
+            padding: 5px 10px;
         }
     </style>
 </head>
 <body>
-    <!-- 页面的头部-->
-    <div class="head_band">
-        <div class="head-content">
-            <!--Logo -->
-            <div class="logo">
-                <a href="HotHome.html">
-                    <img src="images/logo.PNG" alt="">
+<!-- 页面的头部-->
+<div class="head_band">
+    <div class="head-content">
+        <!--Logo -->
+        <div class="logo">
+            <a href="HotHome.html">
+                <img src="images/logo.PNG" alt="">
+            </a>
+        </div>
+        <!-- 导航 -->
+        <div class="action-menu">
+
+            <a href="#" class="tb active">全部</a>
+
+            <a href="#" class="tb">42区</a>
+
+            <a href="#" class="tb">段子</a>
+
+            <a href="#" class="tb">图片</a>
+
+            <a href="#" class="tb">挨踢1024</a>
+
+            <a href="#" class="tb">你问我答</a>
+        </div>
+        <div class="head_right">
+            <div class="action-nav">
+                <a href="javascript:;" class="tb login-btn-a" id="reg-link-a">注册</a>
+                <a href="javascript:;" class="tb login-btn-a" id="login-link-a">登录</a>
+            </div>
+            <div class="key-sera">
+                <form action="" method="post" name="searchFrm2" id="searchFrm2">
+                    <input type="text" class="search-txt-s" name="words">
+                    <input type="submit" value="搜索">
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--页面的内容区 -->
+<div class="main-content-body">
+    <div class="main-content-band">
+        <div class="main-content-left">
+            <div class="main-content-num1">
+                <div class="a-menu" style="float: left">
+                    <a href="#" class="a-menu">最热</a>
+                    <a href="#">发现</a>
+                    <a href="#">人类发布</a>
+                </div>
+                <div style="float: right;padding-top: 5px;padding-left: 5px">
+                    <a href="">即时排序</a>
+                    <a href="">24小时</a>
+                    <a href="">3天</a>
+                    <a href="">
+                        <img src="images/plus.PNG" alt="" height="32" width="160">
+                    </a>
+                </div>
+            </div>
+            <div class="main-content-num2">
+                    <a href="content1.html">
+                        最热 发现 人类发布 即时排序 24小时 3天 发布
+                        抽屉新热榜
+                        【那些年我看过的脱衣舞】身为女性，活在世上的优势并不多。
+                        其中一个优势就是可以肆无忌惮地欣赏别的女性的身体，用目光舔过她们的身体，高声谈论她们的胸部和大腿。
+                        但你很难想象一个男性做同样的事情——无论是对同性还是异性，而不遭受他人“大哥你离我远一点”的目光。
+                        -renjian.163.com 42区<br/>
+                        我忽然发现写作和脱衣舞之间有一种心照不宣的联系：她在舞台上除去衣衫，下了台之后，用写作给自己和世界一件件穿上衣服。
+                    </a>
+            </div>
+        </div>
+        <div class="main-content-right">
+            <div class="content-right-1">
+                <a href="#">
+                    <img src="images/12377.PNG" alt="" width="285">
                 </a>
             </div>
-            <!-- 导航 -->
-            <div class="action-menu">
-
-                <a href="#"  class="tb active" >全部</a>
-
-                <a href="#" class="tb">42区</a>
-
-                <a href="#" class="tb">段子</a>
-
-                <a href="#" class="tb">图片</a>
-
-                <a href="#" class="tb">挨踢1024</a>
-
-                <a href="#" class="tb">你问我答</a>
+            <div class="content-right-2">
+                <img src="images/search.PNG" alt="" height="25" width="25">
+                如何避免自己被封号
             </div>
-            <div class="head_right">
-                <div class="action-nav">
-                    <a href="javascript:;" class="tb login-btn-a" id="reg-link-a">注册</a>
-                    <a href="javascript:;" class="tb login-btn-a" id="login-link-a">登录</a>
-                </div>
-                <div class="key-sera">
-                    <form action="" method="post" name="searchFrm2" id="searchFrm2">
-                        <input type="text" class="search-txt-s" name="words" >
-                        <input type="submit" value="搜索">
-                    </form>
-                </div>
+            <div class="content-right-3" id="content-right-3id">
+                <a href="#">
+                    <img src="images/park.PNG" alt="" width="285">
+                </a>
+                <h3>24小时全部 <font color="red">TOP 10</font></h3>
             </div>
-
-
-        </div>
-    </div>
-    <!--页面的内容区 -->
-    <div class="main-content-body">
-        <div class="main-content-band">
-            <div class="main-content-left">
-                a
-            </div>
-            <div class="main-content-right">
-                <div class="content-right-1">
-                    <a href="#">
-                        <img src="images/12377.PNG" alt="" width="285">
-                    </a>
-                </div>
-                <div class="content-right-2">
-                    <img src="images/search.PNG" alt="" height="25" width="25">
-                    如何避免自己被封号
-                </div>
-                <div class="content-right-3"  id="content-right-3id">
-                    <a href="#">
-                        <img src="images/park.PNG" alt="" width="285">
-                    </a>
-                </div>
+            <div class="maxHot">
+                <p>最热榜</p>
             </div>
         </div>
     </div>
-    <!--页面的底部 -->
-    <div>
+</div>
+<!--页面的底部 -->
+<div>
 
-    </div>
+</div>
 </body>
 </html>

@@ -115,36 +115,38 @@
         }
     </style>
     <script>
+        //记录次数
         var i=0;
-        //当页面加载成功后，轮播图片
-        function init() {
-            //设置定时器
-            setInterval(changeImg,3000);
-        }
-        function changeImg() {
-            i++
-            //获取图片元素
-          var imgObj =  document.getElementById("imgId");
-          //修改图片
-            imgObj.src = "images/adv/adv_"+i+".jpg";
-            if(i == 4){
-                i=0;
-            }
-        }
+        //定时器id
+        var timer;
         onload=function () {
             //页面加载成功后，设置定时器间隔4秒后展示图片
-            setInterval(showAd,4000);
+            timer=setInterval(showAd,4000);
         }
         //展示广告方法，展示2秒之后隐藏
         function showAd() {
+            //展示的次数加1
+            i++;
+            //若i=3 清空由setinterval设置的定时器
+            if(i==3){
+                clearInterval(timer);
+            }
             //获取广告
             var adObj = document.getElementById("ad");
             //修改广告样式，将其显示
             adObj.style.display="block";
+            //2秒之后隐藏
+            setInterval(hideAd,2000);
+        }
+        function hideAd() {
+            //获取广告
+            var adObj = document.getElementById("ad");
+            //修改广告样式，将其隐藏
+            adObj.style.display="none";
         }
     </script>
 </head>
-<body onload="init()">
+<body>
     <div class="container">
         <div class="head-top">
             <div class="head-top-left">

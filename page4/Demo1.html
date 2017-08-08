@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //改变层内容
+        function  clkchange() {
+            document.getElementById("sou").innerHTML="新浪"
+        }
+        //显示input的内容
+        function showInput() {
+           var inputObj = document.getElementsByTagName("input");
+          var ssObj = document.getElementById("ss");
+          ssObj.innerHTML="";
+           for(var i=0;i<inputObj.length;i++){
+             ssObj.innerHTML = ssObj.innerHTML+inputObj[i].value;
+           }
+            document.getElementById("ss").innerHTML=ssObj.innerHTML;
+        }
+        //显示season内容
+        function showInput() {
+//            var season = document.getElementById("two");
+//            alert(season.name)
+        }
+    </script>
+</head>
+<body>
+<div id="sou">
+    搜狐
+</div>
+<input type="button" value="改变层内容" onclick="clkchange()" id="one"><br>
+<input type="text" name="season" value="春" id="two"><br>
+<input type="text" name="season" value="夏"><br>
+<input type="text" name="season" value="秋"><br>
+<input type="text" name="season" value="冬"><br>
+<input type="button"  value="显示input的内容" onclick="showInput()"><br>
+<input type="button" value="显示season内容" onclick="showSeason()">
+<div id="ss">
+
+</div>
+</body>
+</html>
