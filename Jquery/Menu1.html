@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            font-size: small;
+            list-style-type: none;
+            padding-left: 15px;
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $("#img1").click(function () {
+                $(".li1").show();
+            })
+           $("#img2").click(function () {
+                $(".li2").css("display","block")
+            })
+            $("#img3").click(function () {
+                $(".li3").css("display","block")
+            })
+            $("#img4").click(function () {
+                $(".li4").css("display","block")
+            })
+        })
+    </script>
+</head>
+<body>
+<div id="did1">
+    <ul>
+        <img src="img/z-1.jpg" alt="" id="img1">分类讨论区
+        <li class="li1"><img src="img/z-top.gif" alt="" >BBS系统</li>
+        <li class="li1"><img src="img/z-top.gif" alt="" >共建水木</li>
+        <li class="li1"><img src="img/z-top.gif" alt="" >站务公告栏</li>
+        <li class="li1"><img src="img/z-top.gif" alt="" >妆点水木</li>
+        <li class="li1"><img src="img/z-end.gif" alt="" >申请版主</li>
+    </ul>
+</div>
+<div id="did2">
+    <ul>
+        <img src="img/z-1.jpg" alt="" id="img2">社会信息
+        <li class="li2"><img src="img/z-top.gif" alt="">美容品与修饰代理</li>
+        <li class="li2"><img src="img/z-top.gif" alt="">考研资料市场</li>
+        <li class="li2"><img src="img/z-top.gif" alt="">商海纵横</li>
+        <li class="li2"><img src="img/z-top.gif" alt="">动物保护者</li>
+        <li class="li2"><img src="img/z-end.gif" alt="">动物世界</li>
+        <li class="li2"><img src="img/z-end.gif" alt="">中国风·神州各地</li>
+    </ul>
+</div>
+<div id="did3">
+    <ul>
+        <img src="img/z-1.jpg" alt="" id="img3">休闲娱乐
+        <li class="li3"><img src="img/z-top.gif" alt="">ASCIIart全国转信</li>
+        <li class="li3"><img src="img/z-top.gif" alt="">七彩水木</li>
+        <li class="li3"><img src="img/z-top.gif" alt="">网友聚会</li>
+        <li class="li3"><img src="img/z-top.gif" alt="">醉品人生</li>
+        <li class="li3"><img src="img/z-end.gif" alt="">花木园艺</li>
+        <li class="li3"><img src="img/z-end.gif" alt="">祝福</li>
+    </ul>
+</div>
+<div id="did4">
+    <ul>
+        <img src="img/z-1.jpg" alt="" id="img4">电脑技术
+        <li class="li4"><img src="img/z-top.gif" alt="">BBS安装管理</li>
+        <li class="li4"><img src="img/z-top.gif" alt="">CAD技术</li>
+        <li class="li4"><img src="img/z-top.gif" alt="">数字图像技术</li>
+        <li class="li4"><img src="img/z-top.gif" alt="">电脑音乐制作</li>
+        <li class="li4"><img src="img/z-end.gif" alt="">软件加密与解密</li>
+        <li class="li4"><img src="img/z-end.gif" alt="">计算机体系结构</li>
+    </ul>
+</div>
+</body>
+</html>
