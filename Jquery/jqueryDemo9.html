@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $("#did").css({
+                "border":"1px solid gray",
+                "width":"200px",
+                "height":"200px",
+                "text-align":"center"
+            })
+            $("#did2").css({
+                "display":"none"
+            })
+            $("#did").click(function () {
+                $("#did2").css({
+                    "display":"block"
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+   <div id="did">
+       <h3>新手指南</h3>
+       <div id="did2">
+           <ul>
+               <li><a href="">事件</a></li>
+               <li><a href="">文档</a></li>
+               <li><a href="">属性</a></li>
+               <li><a href="">核心</a></li>
+           </ul>
+       </div>
+   </div>
+</body>
+</html>

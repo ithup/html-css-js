@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            //$(".two").css("display","none");
+            $("div:first").mouseover(function(){
+               // $("div:first").css("background-color","yellow");
+                $("div:first").css("display","none")
+            });
+            $("div:last").click( function () {
+                $(this).hide();
+            });
+        })
+    </script>
+</head>
+<body>
+<div>jQuery简介</div>
+<div class="two">jQuery语法</div>
+<div>jQuery选择器</div>
+<div>jQuery事件与动画</div>
+<div>jQuery方法</div>
+</body>
+</html>

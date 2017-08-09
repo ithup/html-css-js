@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $("#one").css("background-color","green")
+            $("#one").click(function () {
+//                $("#two").css("display","block")
+                $("#two").show();
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="one">
+       什么是软件开发环境？
+    </div>
+    <div id="two" style="display: none">
+        软件开发环境(Software Development Environment，SDE)是指在基本硬件和数字软件的基础上，<br/>
+        为支持系统软件和应用软件的工程化开发和维护而使用的一组软件，简称SDE。<br/>
+        它由软件工具和环境集成机制构成，前者用以支持软件开发的相关过程、活动和任务，<br/>
+        后者为工具集成和软件的开发、维护及管理提供统一的支持。
+    </div>
+</body>
+</html>

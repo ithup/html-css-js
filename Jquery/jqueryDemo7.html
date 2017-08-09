@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $("h1").click(function () {
+                $("h1").css("background-color","gray")
+                $("p").css({
+                    "line-height":"50px",
+                    "padding-left":"50px",
+                    "padding-top":"50px"
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>
+        你是人间的四月天
+    </h1>
+    <p>
+        jQuery 选择器允许您对 HTML 元素组或单个元素进行操作。<br/>
+        jQuery 选择器基于元素的 id、类、类型、属性、属性值等"查找"（或选择）HTML 元素。 <br/>
+        它基于已经存在的 CSS 选择器，除此之外，它还有一些自定义的选择器。<br/>
+        jQuery 中所有选择器都以美元符号开头：$()。
+
+    </p>
+</body>
+</html>
