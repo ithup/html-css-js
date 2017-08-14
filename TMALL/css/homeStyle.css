@@ -121,7 +121,13 @@ a{
     padding-bottom: 5px;
 
 }
-.products:hover{
-    /*display: block;*/
-    /*background-color: #00897b;*/
+.common{
+    display: none;
+    position: absolute;
+    height:449px;
+    width: 700px;
+    //border: 1px solid red;
+    background-color: white;
+    left: 180px;
+    top: 0px;
 }

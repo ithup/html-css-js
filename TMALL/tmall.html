@@ -4,130 +4,628 @@
     <meta charset="UTF-8">
     <title>天猫首页</title>
     <link rel="stylesheet" type="text/css" href="css/homeStyle.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+            $(".firstMenu").mouseover(function () {
+                $(".c").show();
+            })
+            $(".firstMenu").mouseout(function () {
+                $(".c").hide();
+            })
+            $(".secondMenu").mouseover(function () {
+                $(".man").show();
+            })
+            $(".secondMenu").mouseout(function () {
+                $(".man").hide();
+            })
+            $(".thirdMenu").mouseover(function () {
+                $(".bao").show();
+            })
+            $(".thirdMenu").mouseout(function () {
+                $(".bao").hide();
+            })
+            $(".fourthMenu").mouseover(function () {
+                $(".per").show();
+            })
+            $(".fourthMenu").mouseout(function () {
+                $(".per").hide();
+            })
+            $(".fifth").mouseover(function () {
+                $(".wanbiao").show();
+            })
+            $(".fifth").mouseout(function () {
+                $(".wanbiao").hide();
+            })
+            $(".sixth").mouseover(function () {
+                $(".phone").show();
+            })
+            $(".sixth").mouseout(function () {
+                $(".phone").hide();
+            })
+            $(".seventh").mouseover(function () {
+                $(".mu").show();
+            })
+            $(".seventh").mouseout(function () {
+                $(".mu").hide();
+            })
+            $(".eighth").mouseover(function () {
+                $(".lingShi").show();
+            })
+            $(".eighth").mouseout(function () {
+                $(".lingShi").hide();
+            })
+            $(".ninth").mouseover(function () {
+                $(".sXSG").show();
+            })
+            $(".ninth").mouseout(function () {
+                $(".sXSG").hide();
+            })
+            $(".tenth").mouseover(function () {
+                $(".allJiaDian").show();
+            })
+            $(".tenth").mouseout(function () {
+                $(".allJiaDian").hide();
+            })
+            $(".eleventh").mouseover(function () {
+                $(".jiaJu").show();
+            })
+            $(".eleventh").mouseout(function () {
+                $(".jiaJu").hide();
+            })
+            $(".twentieth").mouseover(function () {
+                $(".qiChe").show();
+            })
+            $(".twentieth").mouseout(function () {
+                $(".qiChe").hide();
+            })
+            $(".thirteenth").mouseover(function () {
+                $(".jiaFang").show();
+            })
+            $(".thirteenth").mouseout(function () {
+                $(".jiaFang").hide();
+            })
+            $(".fourteenth").mouseover(function () {
+                $(".yYBJ").show();
+            })
+            $(".fourteenth").mouseout(function () {
+                $(".yYBJ").hide();
+            })
+            $(".fifteenth").mouseover(function () {
+                $(".chuJu").show();
+            })
+            $(".fifteenth").mouseout(function () {
+                $(".chuJu").hide();
+            })
+            $(".sixteenth").mouseover(function () {
+                $(".tuShu").show();
+            })
+            $(".sixteenth").mouseout(function () {
+                $(".tuShu").hide();
+            })
+        })
+    </script>
 </head>
 <body>
-    <!--天猫右侧菜单栏 -->
-    <div class="fix_page_right">
-            <div class="fix_page_right_menu">
-                <div class="menu_member">
-                    <a href="" class="">
-                        <img src="images/member.PNG" alt="会员权益">
-                    </a><br/>
-                </div>
-                <div class="menu_cart">
-                    <a href="">
-                        <img src="images/cart.PNG" alt="">
-                    </a>
-                </div>
-                <a href="#">
-                    <img src="images/property.PNG" alt="">
-                </a>
-                <a href="#">
-                    <img src="images/brand.PNG" alt="">
-                </a>
-                <a href="#">
-                    <img src="images/collect.PNG" alt="">
-                </a>
-                <a href="#">
-                    <img src="images/looked.PNG" alt="">
-                </a>
-                <a href="#">
-                    <img src="images/topUp.PNG" alt="">
-                </a>
-            </div>
+<!--天猫右侧菜单栏 -->
+<div class="fix_page_right">
+    <div class="fix_page_right_menu">
+        <div class="menu_member">
+            <a href="" class="">
+                <img src="images/member.PNG" alt="会员权益">
+            </a><br/>
+        </div>
+        <div class="menu_cart">
+            <a href="">
+                <img src="images/cart.PNG" alt="">
+            </a>
+        </div>
+        <a href="#">
+            <img src="images/property.PNG" alt="">
+        </a>
+        <a href="#">
+            <img src="images/brand.PNG" alt="">
+        </a>
+        <a href="#">
+            <img src="images/collect.PNG" alt="">
+        </a>
+        <a href="#">
+            <img src="images/looked.PNG" alt="">
+        </a>
+        <a href="#">
+            <img src="images/topUp.PNG" alt="">
+        </a>
     </div>
-    <!--天猫顶部 -->
-    <div class="head_top">
-        <div class="head_content">
-            <div class="head_content_left">
-                <span>喵，欢迎来天猫</span>
-                <a href="#" class="login">请登录</a>
-                <a href="#" class="register">免费注册</a>
+</div>
+<!--天猫顶部 -->
+<div class="head_top">
+    <div class="head_content">
+        <div class="head_content_left">
+            <span>喵，欢迎来天猫</span>
+            <a href="#" class="login">请登录</a>
+            <a href="#" class="register">免费注册</a>
+        </div>
+        <div class="head_content_right">
+            <a href="#" class="head_content_right_menu">我的淘宝</a>
+            <a href="#" class="head_content_right_menu">我关注的品牌</a>
+            <a href="#" class="head_content_right_menu">购物车0件</a>
+            <a href="#" class="head_content_right_menu">收藏夹</a>
+            <a href="#" class="head_content_right_menu">手机版 </a>
+            <a href="#" class="head_content_right_menu">淘宝网</a>
+            <a href="#" class="head_content_right_menu">企业购</a>
+            <a href="#" class="head_content_right_menu">商家支持</a>
+            <a href="#" class="head_content_right_menu">网站导航</a>
+        </div>
+    </div>
+</div>
+<div style="clear: both"></div>
+<div class="header">
+    <div class="header-content">
+        <div class="header-content_logo">
+            <a href="#" class="logo">
+                <img src="images/logo.PNG" alt="" class="img_logo">
+            </a>
+        </div>
+        <div class="header_content_right">
+            <div class="search">
+                <form action="">
+                    <input type="search" class="search" width="200px" size="60">
+                    <input type="submit" value="搜索" style="background-color: orangered">
+                </form>
             </div>
-            <div class="head_content_right">
-                <a href="#" class="head_content_right_menu">我的淘宝</a>
-                <a href="#" class="head_content_right_menu">我关注的品牌</a>
-                <a href="#" class="head_content_right_menu">购物车0件</a>
-                <a href="#" class="head_content_right_menu">收藏夹</a>
-                <a href="#" class="head_content_right_menu">手机版 </a>
-                <a href="#" class="head_content_right_menu">淘宝网</a>
-                <a href="#" class="head_content_right_menu">企业购</a>
-                <a href="#" class="head_content_right_menu">商家支持</a>
-                <a href="#" class="head_content_right_menu">网站导航</a>
+            <div class="head_content_menu">
+                <a href="#">t恤男</a>&nbsp;|&nbsp;
+                <a href="#">连衣裙</a>&nbsp;|&nbsp;
+                <a href="#">夏凉被</a>&nbsp;|&nbsp;
+                <a href="#">空调</a>&nbsp;|&nbsp;
+                <a href="#">客厅灯</a>&nbsp;|&nbsp;
+                <a href="#">防晒霜</a>&nbsp;|&nbsp;
+                <a href="#">凉鞋</a>&nbsp;|&nbsp;
+                <a href="#">双肩包</a>&nbsp;|&nbsp;
+                <a href="#">驱蚊液</a>
             </div>
         </div>
     </div>
-    <div style="clear: both"></div>
-    <div class="header">
-        <div class="header-content">
-            <div class="header-content_logo">
-                <a href="#" class="logo">
-                    <img src="images/logo.PNG" alt="" class="img_logo" >
-                </a>
-            </div>
-            <div class="header_content_right">
-                <div class="search">
-                    <form action="">
-                        <input type="search" class="search" width="200px" size="60">
-                        <input type="submit" value="搜索" style="background-color: orangered">
-                    </form>
+</div>
+<!--天猫菜单栏-->
+<div class="body_content_menu">
+    <div class="body_content">
+        <div class="body_content_product">
+            <img src="images/productCataroy.PNG" alt="" width="180" height="30">
+        </div>
+        <div class="body_content_product_menu">
+            <a href="#" class="product_menu">天猫会员</a>
+            <a href="#" class="product_menu">品牌街</a>
+            <a href="#" class="product_menu">电器城</a>
+            <a href="#" class="product_menu">喵鲜生</a>
+            <a href="#" class="product_menu">医药馆</a>
+            <a href="#" class="product_menu">营业厅</a>
+            <a href="#" class="product_menu">魅力惠</a>
+            <a href="#" class="product_menu">飞猪旅行</a>
+            <a href="#" class="product_menu">苏宁易购</a>
+        </div>
+    </div>
+</div>
+<div class="product">
+    <div class="product-menu-dropdown">
+        <ul>
+            <li class="firstMenu">
+                <a href="" class="products"> 女装 /内衣</a>
+                <!--当季流行 夏季新品商场同款气质连衣裙印花衬衫牛仔单品百搭休闲裤无痕文胸运动文胸超柔内裤潮流家居服百搭船袜
+                精选上装 T恤 衬衫 针织衫 短外套 小西装 风衣 卫衣 毛衣
+                浪漫裙装 连衣裙蕾丝连衣裙真丝连衣裙印花连衣裙半身裙蕾丝半身裙百褶裙牛仔裙背心裙a字裙棉麻连衣裙包臀裙长袖连衣裙
+                女士下装 短裤牛仔裤休闲裤小脚裤哈伦裤背带裤西装裤阔腿裤打底裤
+                特色女装 时尚套装休闲套装精选妈妈装大码女装职业套装优雅旗袍精致礼服婚纱唐装小码女装
+                文胸塑身 光面文胸运动文胸美背文胸聚拢文胸大杯文胸轻薄塑身
+                家居服 春夏家居服纯棉家居服莫代尔家居服真丝家居服春夏睡裙男士家居服情侣家居服性感睡裙
+                内裤背心 男士内裤女式内裤男士内裤多条装女士内裤多条装莫代尔内裤吊带背心-->
+                <div class="common c">
+                    <ul>
+                        <li>当季流行&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">夏季新品</a>&nbsp;&nbsp;&nbsp;<a
+                                href="">商场同款</a>&nbsp;&nbsp;&nbsp;<a href="">气质连衣裙</a>&nbsp;&nbsp;&nbsp;<a
+                                href="">印花衬衫</a>&nbsp;&nbsp;&nbsp;<a href="">牛仔单品</a>&nbsp;&nbsp;&nbsp;<a
+                                href="">百搭休闲裤</a><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                                    href="">无痕文胸</a>&nbsp;&nbsp;&nbsp;<a href="">运动文胸</a>&nbsp;&nbsp;&nbsp;<a href="">超柔内裤</a>&nbsp;&nbsp;&nbsp;<a
+                                    href="">潮流家居服</a>&nbsp;&nbsp;&nbsp;<a href="">百搭船袜</a><br/>
+                            <hr style="height:1px;border:none;border-top:1px dashed #0066CC;width: 460px"/>
+                        </li>
+                        <li>精选上装&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="">T恤</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">衬衫</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">针织衫</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">短外套</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">小西装</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">风衣</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">卫衣</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">毛衣</a><br/>
+                            <hr style="height:1px;border:none;border-top:1px dashed #0066CC;width: 460px"/>
+                        </li>
+
+                        <li>浪漫裙装&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="">连衣裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">蕾丝连衣裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">真丝连衣裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">印花连衣裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">半身裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">蕾丝半身裙</a><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="">百褶裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">牛仔裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">背心裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">a字裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href=""> 棉麻连衣裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">包臀裙</a>&nbsp;&nbsp;&nbsp;
+                            <a href="">长袖连衣裙</a><br/>
+                            <hr style="height:1px;border:none;border-top:1px dashed #0066CC;width: 460px"/>
+                        </li>
+                        <li>女士下装&gt;</li>
+                        <li>特色女装&gt;</li>
+                        <li>文胸塑身&gt;</li>
+                        <li>家居服&gt;</li>
+                        <li>内裤背心&gt;</li>
+                    </ul>
                 </div>
-                <div class="head_content_menu">
-                    <a href="#">t恤男</a>&nbsp;|&nbsp;
-                    <a href="#">连衣裙</a>&nbsp;|&nbsp;
-                    <a href="#">夏凉被</a>&nbsp;|&nbsp;
-                    <a href="#">空调</a>&nbsp;|&nbsp;
-                    <a href="#">客厅灯</a>&nbsp;|&nbsp;
-                    <a href="#">防晒霜</a>&nbsp;|&nbsp;
-                    <a href="#">凉鞋</a>&nbsp;|&nbsp;
-                    <a href="#">双肩包</a>&nbsp;|&nbsp;
-                    <a href="#">驱蚊液</a>
+            </li>
+            <li class="secondMenu">
+                <a href="" class="products"> 男装 /运动户外</a>
+                <!--当季流行 秋季新品商场同款短袖T恤POLO衫短袖衬衫棉麻质感牛仔衬衫修身夹克潮流卫衣长袖衬衫束脚裤九分裤破洞牛仔裤健身套装划船机泳衣跑步鞋自行车平衡车篮球鞋帆布鞋休闲鞋
+                男士外套 夹克单西棒球服棉衣大衣风衣西服套装羽绒服皮衣运动服工装外套针织开衫马甲
+                男士内搭 短袖T恤POLO衫长袖T恤短袖衬衫长袖衬衫卫衣针织衫/毛衣背心
+                男士裤装 休闲裤牛仔裤西裤小脚裤运动裤针织裤工装裤9分裤短裤
+                特色男装 潮牌中老年加大码职场精英中国风情侣装
+                运动服 短袖t恤运动裤运动内衣速干t恤运动Polo运动卫衣运动套装运动短裤健身服运动茄克
+                户外用品 钓竿双肩背包防晒衣户外包帐篷手电筒刀具
+                运动用品 跑步机瑜伽垫泳衣瑜伽服羽毛球拍自行车电动车篮球足球运动护具健身器械网球拍
+                自行车 自行车山地车折叠车平衡车公路车骑行服死飞头盔自行车锁自行车灯骑行眼镜电动车-->
+                <div class="common man">
+                    <ul>
+                        <li>当季流行&gt;</li>
+                        <li>男士外套&gt;</li>
+                        <li>男士内搭&gt;</li>
+                        <li>男士裤装&gt;</li>
+                        <li>特色男装&gt;</li>
+                        <li>运动服&gt;</li>
+                        <li>户外用品&gt;</li>
+                        <li>运动用品&gt;</li>
+                        <li>自行车&gt;</li>
+                    </ul>
                 </div>
-            </div>
-        </div>
+            </li>
+            <li class="thirdMenu">
+                <a href="" class="products">女鞋 /男鞋 /箱包</a>
+                <!--推荐女鞋 永远的帆布鞋舒适平底单鞋布洛克牛津鞋彩色豆豆鞋流行松糕鞋气质通勤欧美街头甜美优雅运动风格
+                潮流男鞋 商场同款休闲鞋正装皮鞋休闲皮鞋板鞋户外休闲帆布鞋运动休闲乐福鞋豆豆鞋布洛克帆船鞋布鞋
+                女单鞋 单鞋小白鞋商场同款帆布鞋深口单鞋浅口单鞋平底单鞋高跟单鞋坡跟单鞋豆豆鞋乐福鞋牛津鞋
+                特色鞋 妈妈鞋大码女鞋小码女鞋女内增高男内增高软轻风爸爸鞋大码男鞋小码男鞋
+                潮流女包 新品推荐商场同款女士钱包单肩包斜跨包手提包手拿包腰包胸包化妆包
+                精品男包 男士钱包收纳包胸包腰包手拿包手提包斜跨包单肩包商场同款新品推荐
+                功能箱包 旅行箱万向轮箱旅行袋女士双肩包男士双肩包韩版双肩包铆钉双肩包女士钱包男士钱包大容量印花-->
+                <div class="common bao">
+                    <ul>
+                        <li>推荐女鞋&gt;</li>
+                        <li>潮流男鞋&gt;</li>
+                        <li>女单鞋&gt;</li>
+                        <li>特色鞋&gt;</li>
+                        <li>潮流女包&gt;</li>
+                        <li>精品男包&gt;</li>
+                        <li>功能箱包&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="fourthMenu">
+                <!--护肤品 官方直售面膜护肤套装乳液面霜精华液护手霜爽肤水洁面眼霜身体乳卸妆身体护理男士护理精油芳疗丰胸面部喷雾T区护理去角质补水祛痘敏感修护线上专柜
+                彩妆 时尚彩妆香水BB霜美容工具口红隔离粉底粉饼气垫bb指甲油美甲工具眉笔睫毛膏眼线唇彩眼影蜜粉彩妆套装
+                男士护肤 洁面爽肤水乳液/面霜面膜面部精华眼部护理防晒唇部护理T区护理控油
+                肤质推选 混合偏油型中性偏干型敏感性干性油性混合型中性
+                美发护发 洗发水进口洗发水护发素发膜洗护套装护发精油头发造型弹力素染发霜整顶假发假发配件男性假发
+                口腔护理 牙膏进口牙膏牙刷进口牙刷漱口水牙线牙粉口气清新剂牙贴口腔美白假牙清洁
+                身体女性 沐浴露香皂泡澡浴盐护足洗手液手动剃须刀卫生巾成人护垫私处洗液卫生棉条-->
+                <a href="" class="products"> 化妆品 /个人护理</a>
+                <div class="common per">
+                    <ul>
+                        <li>护肤品&gt;</li>
+                        <li>彩妆&gt;</li>
+                        <li>男士护肤&gt;</li>
+                        <li>肤质推选&gt;</li>
+                        <li>美发护发&gt;</li>
+                        <li>口腔护理&gt;</li>
+                        <li>身体女性&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="fifth">
+                <!--黄金首饰 耳钉黄金项链投资黄金婚嫁套饰转运珠黄金对戒足金饰品K金饰品商场同款
+                钻石彩宝 结婚钻戒钻石耳饰钻石吊坠钻石手链裸钻定制红蓝宝石绿宝石坦桑石其他天然宝石
+                珍珠玉翠 珍珠项链送妈妈海水珍珠和田玉翡翠摆件翡翠手镯翡翠项链琥珀手链天然琥珀原矿琥珀
+                潮流饰品 明星同款传统银饰木手串银手镯石榴石手链开口戒指胸针宝宝银饰手链项链发饰手镯耳饰戒指项坠施华洛世奇shes银时代伊泰莲娜PH7MonchhichiALEXANDRE
+                腕表 瑞士名表日韩港表欧美手表经典国表国货精表男表女表情侣表儿童手表机械表石英表光能表防水表运动表学生表军表陶瓷表
+                眼镜 太阳镜墨镜眼镜框近视眼镜防辐射眼镜老花镜司机镜偏光镜驾驶镜3D眼镜雷朋暴龙宝岛眼镜oakley
+                烟具 电子烟烟盒烟斗烟嘴烟油蒸汽烟水烟戒烟女士烟鼻烟雪茄
+                打火机 打火机Zippo防风打火机充气打火机煤油打火机充电打火机打火机油usb打火机火柴佐罗-->
+                <a href="" class="products"> 腕表 /珠宝饰品 /眼镜</a>
+                <div class="common wanbiao">
+                    <ul>
+                        <li>黄金首饰&gt;</li>
+                        <li>钻石彩宝&gt;</li>
+                        <li>珍珠玉翠&gt;</li>
+                        <li>潮流饰品&gt;</li>
+                        <li>腕表&gt;</li>
+                        <li>眼镜&gt;</li>
+                        <li>烟具&gt;</li>
+                        <li>打火机&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="sixth">
+                <!--热门手机 小米iPhone魅族荣耀乐视OPPOvivo三星华为
+                特色手机 YunOS千元指纹双卡双待大屏自拍移动联通电信合约机
+                电脑整机 笔记本平板电脑台式机一体机DIY游戏本iPadSurface
+                智能数码 智能设备智能手表智能手环VR眼镜智能摄像智能健康智能机器人
+                游戏组装 DIY电脑竞技DIY显示器游戏本机械键盘XBOX游戏手柄
+                硬件存储 显示器机械键盘固态硬盘CPU显卡主板高速U盘路由器
+                摄影摄像 相机单反单电微单摄像机自拍神器拍立得镜头自拍杆
+                影音娱乐 耳机天猫魔盒数码影音家庭影院蓝牙耳机网络播放器
+                办公文教 文具电子书笔类／书写工具智能投影打印机保险箱
+                数码配件 手机配件苹果配件笔记本配件平板配件相机配件手机车载配件kindle配件充电宝自拍杆数据线电池-->
+                <a href="" class="products">手机 /数码 /电脑办公</a>
+                <div class="common phone">
+                    <ul>
+                        <li>热门手机&gt;</li>
+                        <li>特色手机&gt;</li>
+                        <li>电脑整机&gt;</li>
+                        <li>智能数码&gt;</li>
+                        <li>游戏组装&gt;</li>
+                        <li>摄影摄像&gt;</li>
+                        <li>影音娱乐&gt;</li>
+                        <li>办公文教&gt;</li>
+                        <li>数码配件&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="seventh">
+                <!-- 童装 秋焕新商场同款套装裤子外套T恤裙子内衣裤连体衣亲子装
+                 婴儿服 连体衣内衣套装裤子婴儿礼盒外套家居服T恤反穿衣肚兜
+                 童鞋 学步鞋凉鞋运动鞋亲子鞋帆布鞋皮鞋雨靴靴子棉鞋拖鞋
+                 车床用品 婴儿推车学步车安全座椅婴儿背带腰凳婴儿床餐椅睡袋抱被
+                 喂养 奶瓶奶嘴水杯餐具消毒锅辅食机调奶器暖奶器围嘴
+                 洗护 洗发水沐浴露润肤浴盆湿巾洗衣液洗衣皂理发器驱虫止痒
+                 玩具 婴儿玩具儿童自行车儿童电动车毛绒玩具积木电动遥控儿童箱包
+                 天猫动漫 动漫周边影视周边手办高达魔术道具COSPLAY桌游变形金刚
+                 奶粉 牛奶粉羊奶粉特殊配方奶粉宝宝辅食宝宝零食宝宝营养DHA
+                 纸尿裤 纸尿裤拉拉裤纸尿片LXLMSNB新生儿组合
+                 孕产 孕产用品孕妈洗护孕妈装月子服哺乳文胸防辐射吸奶器待产包-->
+                <a href="" class="products"> 母婴玩具</a>
+                <div class="common mu">
+                    <ul>
+                        <li>童装&gt;</li>
+                        <li>婴儿服&gt;</li>
+                        <li>童鞋&gt;</li>
+                        <li>车床用品&gt;</li>
+                        <li>喂养&gt;</li>
+                        <li>洗护&gt;</li>
+                        <li>玩具&gt;</li>
+                        <li>天猫动漫&gt;</li>
+                        <li>奶粉&gt;</li>
+                        <li>纸尿裤&gt;</li>
+                        <li>孕产&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="eighth">
+                <!--进口食品 进口零食进口巧克力进口饼干进口糖果进口坚果进口果干进口橄榄油进口牛奶进口咖啡进口饮料进口葡萄酒进口洋酒进口啤酒
+                休闲零食 零食坚果饼干蛋糕红枣巧克力猪肉脯膨化食品蜜饯鸭脖糖果豆干曲奇海苔肉松饼牛肉干鱿鱼丝糕点
+                酒类 白酒红酒洋酒啤酒黄酒保健酒预调酒配制酒葡萄酒
+                茶叶 西湖龙井安吉白茶绿茶大红袍铁观音普洱茶玫瑰花茶柠檬片菊花茶花茶天然粉粉金骏眉红茶
+                乳品冲饮 牛奶酸奶成人奶粉儿童奶速溶咖啡滤挂咖啡咖啡豆麦片奶茶柚子茶果汁汽水功能饮料饮用水
+                粮油速食 橄榄油食用油大米薏米玉米面粉银耳桂圆干香肠木耳香菇方便面手抓饼黄油意大利面蛋挞皮调味品红糖进口泡面粽子寿司
+                生鲜水果 牛排芒果奇异果蟹三文鱼虾车厘子进口鳕鱼海参苹果榴莲牛肉牛油果土鸡冰淇淋鸡蛋-->
+                <a href="" class="products"> 零食 /进口食品 /茶酒</a>
+                <div class="common lingShi">
+                    <ul>
+                        <li>进口食品&gt;</li>
+                        <li>闲零食&gt;</li>
+                        <li>酒类&gt;</li>
+                        <li>茶叶&gt;</li>
+                        <li>乳品冲饮&gt;</li>
+                        <li>粮油速食&gt;</li>
+                        <li>生鲜水果&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="ninth">
+                <!--新鲜蔬菜 土豆番薯山药莲藕净菜玉米秋葵大蒜生姜南瓜
+                冰淇淋 冰淇淋哈根达斯movenpick莫凡彼本杰瑞tip-top冰淇淋
+                蛋类 鸡蛋鸭蛋鹅蛋鸽子蛋鹌鹑蛋松花皮蛋咸鸭蛋喜蛋
+                肉类 牛排牛腩牛腱子牛肉牛尾牛肉串牛杂羊腿羊排羊肉串羊蝎子鸡肉鸡翅鸡胸鸡腿鸭肉乳鸽鹅肉
+                海鲜水产 鳕鱼三文鱼金枪鱼鲽鱼斑鱼比目鱼多春鱼马鲛鱼龙利鱼秋刀鱼带鱼海带墨鱼海参海蜇鱿鱼甲鱼大闸蟹帝王蟹雪蟹黄金蟹鱼丸鱼糕/鱼饼干贝/瑶柱虾仁活虾冻虾生蚝北极贝扇贝贝类
+                新鲜水果 奇异果车厘子/樱桃芒果牛油果火龙果苹果橙子凤梨榴莲山竹木瓜柠檬百香果椰青番荔枝/释迦龙眼蓝莓梨提子柚子芭乐莲雾桃草莓西柚荔枝石榴葡萄/提子哈密瓜枇杷李子西瓜菠萝桔子香蕉杨桃红毛丹/毛荔枝
+                精选干货 干贝/瑶柱虾皮/虾米/海米大虾干花胶/鱼胶海带紫菜鱼干墨鱼干
+                即食海鲜 鱼类罐头贝类罐头香辣小龙虾即食蟹类北极甜虾即食虾类金枪鱼罐头三文鱼罐头丁香鱼罐头-->
+                <a href="" class="products">生鲜水果</a>
+                <div class="common sXSG">
+                    <ul>
+                        <li>新鲜蔬菜&gt;</li>
+                        <li>冰淇淋&gt;</li>
+                        <li>蛋类&gt;</li>
+                        <li>肉类&gt;</li>
+                        <li>海鲜水产&gt;</li>
+                        <li>新鲜水果&gt;</li>
+                        <li>精选干货&gt;</li>
+                        <li>即食海鲜&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tenth">
+                <!--平板电视 4K超高清国产外资品牌曲面智能电视超级大屏云电视客厅首选
+                空调 热门之选节能智能变频艺术柜机挂机1.5匹中央空调
+                冰箱 热门之选无霜三门对开门电脑温控智能冷柜酒柜
+                洗衣机 滚筒洗波轮洗洗烘一体迷你烘干机双缸/双桶热门大容量
+                厨房大电 烟灶套装嵌入式烤箱嵌入式蒸箱燃气灶消毒柜洗碗机集成灶
+                热水器 电热水器燃气热水器遥控恒温小厨宝太阳能即热式空气能
+                中式厨房 净水器电饭煲豆浆机电热水壶电压力锅电磁炉养生壶
+                西式厨房 烤箱料理机微波炉榨汁机原汁机面包机咖啡机电炸锅
+                生活电器 扫地机器人空气净化器吸尘器除湿机电风扇挂烫机干衣机
+                个护健康 剃须刀吹风机电动牙刷体重秤理发器足浴器按摩椅
+                精品推荐 脱毛器吊扇冰淇淋机碎冰机空调扇瘦身带冷饮机炒冰机电子灭蚊器冰淇淋机除湿机干衣机-->
+                <a href="" class="products"> 大家电 /生活电器</a>
+                <div class="common allJiaDian">
+                    <ul>
+                        <li>平板电视&gt;</li>
+                        <li>空调&gt;</li>
+                        <li>冰箱&gt;</li>
+                        <li>洗衣机&gt;</li>
+                        <li>厨房大电&gt;</li>
+                        <li>热水器&gt;</li>
+                        <li>中式厨房&gt;</li>
+                        <li>西式厨房&gt;</li>
+                        <li>生活电器&gt;</li>
+                        <li>个护健康&gt;</li>
+                        <li>精品推荐&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="eleventh">
+                <!--成套家具 客厅成套家具餐厅成套家具卧室成套家具儿童成套家具
+                客厅餐厅 沙发布艺沙发皮艺沙发实木沙发懒人沙发电视柜茶几鞋柜单人沙发餐桌餐椅酒柜餐边柜吧台玄关柜边几
+                卧室家具 床衣柜床垫简易衣柜乳胶床垫弹簧床垫棕床垫实木床双人床
+                书房儿童 电脑桌电脑椅书桌办公桌书架书柜连体书桌柜折叠床/椅花架儿童床高低床儿童床垫儿童沙发儿童椅儿童学习桌儿童衣柜
+                家装主材 强化复合地板瓷砖墙纸涂料瓷砖背景墙油漆地板硅藻泥
+                厨房卫浴 浴霸集成吊顶马桶淋浴花洒套装浴室柜组合水槽套餐智能马桶盖
+                灯饰照明 吸顶灯吊灯水晶吊灯筒灯射灯灯带LED灯泡壁灯成套灯具
+                五金工具 接线板开关插座USB插座指纹锁工具箱监控摄像头门锁拉手
+                全屋定制 全屋定制定制橱柜定制衣柜门木门榻榻米门窗特权订金
+                装修设计 装修特权全包半包拎包入住局部装修设计软装配饰监理-->
+                <a href="" class="products"> 家具建材</a>
+                <div class="common jiaJu">
+                    <ul>
+                        <li>成套家具&gt;</li>
+                        <li>客厅餐厅&gt;</li>
+                        <li>卧室家具&gt;</li>
+                        <li>书房儿童&gt;</li>
+                        <li>家装主材&gt;</li>
+                        <li>厨房卫浴&gt;</li>
+                        <li>灯饰照明&gt;</li>
+                        <li>五金工具&gt;</li>
+                        <li>全屋定制&gt;</li>
+                        <li>装修设计&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="twentieth">
+                <!--整车 首付一成开新车车秒贷订金购车新能源汽车轿车SUVMPV小型车
+                座垫脚垫 春季座垫汽车脚垫专用座垫专用座套女性座垫通用座垫
+                机油轮胎 全合成机油半合成机油矿物质机油15寸轮胎16寸轮胎17寸轮胎
+                电子导航 行车记录仪安全预警仪后视镜导航车载导航便携式导航GPS定位
+                车载电器 空气净化器吸尘器车载冰箱车载MP3逆变器手机充电器车载蓝牙
+                维修保养 汽配城雨刮器空调滤芯机油滤芯空气滤芯刹车片刹车盘火花塞
+                美容清洗 洗车机水枪车蜡底盘装甲镀晶汽油添加剂玻璃水补漆笔
+                汽车装饰 香水挂件手机支架摆件方向盘套腰靠头枕尾箱垫车震床
+                安全自驾 安全座椅车载提篮轮胎报警器充气泵安全锤应急工具应急电源
+                外饰改装 汽车贴膜装饰灯改色膜脚踏板车顶架车顶箱太阳膜装饰条
+                汽车服务 加油卡4S保养上门保养连锁保养洗车卡镀晶服务打蜡服务-->
+                <a href="" class="products">汽车 /配件 /用品</a>
+                <div class="common qiChe">
+                    <ul>
+                        <li>整车&gt;</li>
+                        <li>座垫脚垫&gt;</li>
+                        <li>机油轮胎&gt;</li>
+                        <li>电子导航&gt;</li>
+                        <li>车载电器&gt;</li>
+                        <li>维修保养&gt;</li>
+                        <li>美容清洗&gt;</li>
+                        <li>汽车装饰&gt;</li>
+                        <li>安全自驾&gt;</li>
+                        <li>外饰改装&gt;</li>
+                        <li>汽车服务&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="thirteenth">
+                <!--当季热卖 纯棉四件套羽绒被蚕丝被棉花被毛毯床笠沙发垫地毯浴巾定制窗帘抱枕被子两用坐垫国际家纺床品国际居家布艺国际家居饰品夏凉上新
+                床上用品 四件套枕头枕芯床单被子被套床垫针织棉四件套床帘枕套真丝枕套枕巾毯子毛巾毯乳胶枕颈椎枕U型枕记忆枕床罩婚庆床品儿童床品夏凉被凉席蚊帐
+                居家布艺 窗帘遮光窗帘成品窗帘进口地毯客厅地毯卧室地毯沙发套沙发巾家居拖鞋女士棉拖情侣拖鞋毛巾纯棉毛巾浴袍地垫防滑地垫儿童泡沫地垫抱枕靠垫坐垫桌布防水桌布餐垫窗帘杆十字绣十字绣抱枕门帘飘窗垫钻石画防尘罩百叶帘
+                家居饰品 墙贴墙纸自粘壁纸3d立体墙贴花瓶摆件相框装饰画电视背景墙仿真花闹钟玻璃贴纸结婚礼物香薰炉电表箱装饰画招财猫雕刻工艺果盘数字油画玻璃花瓶冰箱贴首饰盒壁饰
+                鲜花绿植 红玫瑰香槟玫瑰百合永生花萌多肉绿植盆栽表白送花康乃馨花束混搭进口玫瑰多肉植物微景观仿真花绢花情人节送花生日送花鲜花礼盒多肉花盆室内植物园艺工具绿萝盆栽干花装饰-->
+                <a href="" class="products"> 家纺 /家饰 /鲜花</a>
+                <div class="common jiaFang">
+                    <ul>
+                        <li>当季热卖&gt;</li>
+                        <li>床上用品&gt;</li>
+                        <li>居家布艺&gt;</li>
+                        <li>家居饰品&gt;</li>
+                        <li>鲜花绿植&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="fourteenth">
+                <!--保健品 营养补充剂芦荟玛卡减肥胶原蛋白维生素C鱼油美容养颜保健食品缓解体力疲劳辅助降血脂增加骨密度护肝减肥通便抗氧化改善睡眠祛黄褐斑减肥茶酵素左旋肉碱增肌粉安神补脑
+                滋补品 滋补养生蜂蜜石斛阿胶黑枸杞冬虫夏草青钱柳西洋参人参藏红花蜂胶阿胶糕灵芝孢子粉黄芪阿胶块燕窝铁皮枫斗三七粉蜂王浆雪蛤四物汤山药牛蒡茶虫草当归鹿茸固元膏
+                医药 感冒咳嗽腰腿疼痛妇科用药男科用药体检套餐血糖仪保健理疗针灸拔罐成人用品男用延时女用情趣避孕套润滑剂情趣跳蛋飞机杯缩阴球震动棒肾宝片阳痿早泄伟哥肝炎皮炎湿疹
+                医疗器械 制氧机体温计轮椅胎心仪理疗仪助听器雾化器呼吸机拔罐器口罩血压计创口贴护具导尿袋血糖仪针灸用品护理床褥疮垫家用器械按摩器材吸痰器座便椅血氧仪颈椎治疗仪刮痧洗鼻器
+                隐形眼镜 强生美瞳博士伦海昌海俪恩卫康爱尔康视康实瞳日抛两周抛月抛季抛半年抛年抛护理液硬镜护理液双氧水润眼液
+                医疗服务 爱康国宾慈铭体检瑞慈体检美年大健康和睦家美中宜和孕期检查月子中心医疗美容玻尿酸注射瘦脸针美丽神器美白服务补水服务-->
+                <a href="" class="products"> 医药保健</a>
+                <div class="common yYBJ">
+                    <ul>
+                        <li>保健品&gt;</li>
+                        <li>滋补品&gt;</li>
+                        <li>医药&gt;</li>
+                        <li>医疗器械&gt;</li>
+                        <li>隐形眼镜&gt;</li>
+                        <li>医疗服务&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="fifteenth">
+                <!--厨房烹饪 全球家居厨餐具锅组套装炒锅不粘锅平底锅高压锅奶锅汤锅炖锅砂锅蒸锅烧水壶刀具菜刀水果刀刀架菜板厨房置物架烧烤用具烘培模具烹饪用具密封罐米桶厨房小工具厨房清洗
+                餐饮具 杯具套装水杯保温杯保温壶玻璃杯陶瓷杯茶杯咖啡杯马克杯红酒杯水具套装酒具咖啡具餐具瓷器餐具套装碗碟套装叉勺筷套装碗筷子茶具套装保温饭盒保鲜盒一次性用品
+                居家礼品 全球家居雨伞太阳伞雨衣口罩挂钟家用梯缝纫机活性炭创意礼品婚庆用品生日礼物相册劳保用品驱蚊驱虫灭蚊灯
+                收纳清洁 全球家居收纳全球家居清洁晾衣架收纳箱收纳柜鞋柜收纳袋收纳盒化妆包旅行收纳衣服防尘脏衣篮压缩袋收纳架置物架旋转拖把平板拖把胶棉拖把垃圾桶垃圾袋置物架浴帘梳子
+                纸品清洁 软包抽纸卷筒纸手帕纸厨房用纸湿厕纸湿巾纸洗衣液衣物除菌液消毒液洗洁精油污净洁厕剂地板清洁管道疏通家私清洁玻璃清洁驱蚊驱虫除湿防潮驱蚊驱虫除甲醛
+                宠物用品 全球家居宠物狗粮猫粮狗零食猫零食窝/笼宠物服饰鱼缸水族世界牵引带医疗保健宠物玩具猫砂生活日用-->
+                <a href="" class="products">厨具 /收纳 /宠物</a>
+                <div class="common chuJu">
+                    <ul>
+                        <li>厨房烹饪&gt;</li>
+                        <li>餐饮具&gt;</li>
+                        <li>居家礼品&gt;</li>
+                        <li>收纳清洁&gt;</li>
+                        <li>纸品清洁&gt;</li>
+                        <li>宠物用品&gt;</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="sixteenth">
+                <!--儿童读物 畅销童书绘本儿童文学启蒙认知益智游戏幼儿科普童话书
+                畅销小说 都市情感穿越架空畅销小说外国文学科幻小说影视同期
+                文学文艺 畅销书散文随笔文学传记涂色字帖现当代文学诺贝尔色铅笔
+                社科生活 烘焙旅游菜谱美容/美体时尚家居装修两性健康两性减肥
+                育儿百科 家庭教育幼儿情绪管理能力培养胎教幼儿心理孕产妇保健
+                学习考试 公务员托福职称英语建造师考试注册会计师四六级英语考研
+                教材教辅 中学教辅新课标中小学作文本科/研究生教材高职教材外语学习
+                经管励志 管理学金融与投资励志投资与理财金融学股市女性励志营销
+                进口原版 进口童书原版小说原版设计艺术原版童书绘本港台原版书
+                大牌乐器 乐器钢琴智能钢琴数码钢琴电子琴吉他尤克里里古筝萨克斯风小提琴儿童乐器口琴电吉他民谣吉他-->
+                <a href="" class="products"> 图书音像</a>
+                <div class="common tuShu">
+                    <ul>
+                        <li>儿童读物&gt;</li>
+                        <li>畅销小说&gt;</li>
+                        <li>文学文艺&gt;</li>
+                        <li>社科生活&gt;</li>
+                        <li>育儿百科&gt;</li>
+                        <li>学习考试&gt;</li>
+                        <li>教材教辅&gt;</li>
+                        <li>经管励志&gt;</li>
+                        <li>进口原版&gt;</li>
+                        <li>大牌乐器&gt;</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </div>
-    <!--天猫菜单栏-->
-    <div class="body_content_menu">
-        <div class="body_content">
-            <div class="body_content_product">
-                <img src="images/productCataroy.PNG" alt="" width="180" height="32">
-            </div>
-            <div class="body_content_product_menu">
-                <a href="#" class="product_menu">天猫会员</a>
-                <a href="#" class="product_menu">品牌街</a>
-                <a href="#" class="product_menu">电器城</a>
-                <a href="#" class="product_menu">喵鲜生</a>
-                <a href="#" class="product_menu">医药馆</a>
-                <a href="#" class="product_menu">营业厅</a>
-                <a href="#" class="product_menu">魅力惠</a>
-                <a href="#" class="product_menu">飞猪旅行</a>
-                <a href="#" class="product_menu">苏宁易购</a>
-            </div>
-        </div>
-    </div>
-    <div class="product">
-        <div class="product-menu-dropdown">
-            <ul>
-                <li>
-                    <a href="" class="products"> 女装 /内衣</a>
-                </li>
-                <li><a href="" class="products"> 男装 /运动户外</a></li>
-                <li><a href="" class="products">女鞋 /男鞋 /箱包</a></li>
-                <li><a href="" class="products"> 化妆品 /个人护理</a></li>
-                <li><a href="" class="products"> 腕表 /珠宝饰品 /眼镜</a></li>
-                <li><a href="" class="products">手机 /数码 /电脑办公</a></li>
-                <li><a href="" class="products"> 母婴玩具</a></li>
-                <li><a href="" class="products"> 零食 /进口食品 /茶酒</a></li>
-                <li><a href="" class="products">生鲜水果</a></li>
-                <li><a href="" class="products"> 大家电 /生活电器</a></li>
-                <li><a href="" class="products"> 家具建材</a></li>
-                <li><a href="" class="products">汽车 /配件 /用品</a></li>
-                <li><a href="" class="products"> 家纺 /家饰 /鲜花</a></li>
-                <li><a href="" class="products"> 医药保健</a></li>
-                <li><a href="" class="products">厨具 /收纳 /宠物</a></li>
-                <li><a href="" class="products"> 图书音像</a></li>
-            </ul>
-        </div>
-    </div>
+</div>
 </body>
 </html>
